@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/ver"
+        android:title="Ver"
+        android:icon="@drawable/ic_mas"/>
+
+    <item
+        android:id="@+id/eliminar"
+        android:title="Eliminar"
+        android:icon="@drawable/ic_mas"/>
+
+</menu>

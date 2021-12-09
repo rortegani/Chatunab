@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cl_recuperarcontra"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/colorPrimaryVariant"
+    tools:context=".vistas.cuenta.RecuperarContraActivity">
+
+    <TextView
+        android:id="@+id/tv_titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recuperar contraseña"
+        android:textSize="32dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/tie_correo"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/forma_texto"
+        android:hint="Correo"
+        android:imeOptions="actionDone"
+        android:inputType="textEmailAddress"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_titulo"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/b_enviarcorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/boton_estilo"
+        android:enabled="false"
+        android:text="Enviar correo"
+        android:layout_marginTop="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tie_correo"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

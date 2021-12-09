@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cl_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/colorPrimaryVariant"
+    tools:context=".vistas.cuenta.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/v_linea"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageView
+            android:id="@+id/iv_logo"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="32dp"
+            android:src="@drawable/ic_chat_blanco" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tie_correo"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/forma_texto"
+            android:hint="Correo"
+            android:imeOptions="actionNext"
+            android:inputType="textWebEmailAddress"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tie_contraseña"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/forma_texto"
+            android:hint="Contraseña"
+            android:imeOptions="actionDone"
+            android:inputType="textPassword"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp" />
+
+        <TextView
+            android:id="@+id/tv_recuperarcontra"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_marginBottom="32dp"
+            android:gravity="end|center_vertical"
+            android:text="Recuperar contraseña"
+            android:textColor="@android:color/darker_gray" />
+
+        <Button
+            android:id="@+id/b_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:background="@drawable/boton_estilo"
+            android:enabled="false"/>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/v_linea"
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:alpha="0.5"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintBottom_toTopOf="@+id/b_registro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/b_registro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:text="Registrarse"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

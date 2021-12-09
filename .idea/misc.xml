@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Chatunab/app/src/main/res/drawable-v23/splash_background.xml" value="0.19375" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Chatunab/app/src/main/res/drawable/boton_deshabilitado.xml" value="0.19375" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Chatunab/app/src/main/res/drawable/boton_estilo.xml" value="0.19375" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Chatunab/app/src/main/res/drawable/boton_habilitado.xml" value="0.19375" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Chatunab/app/src/main/res/drawable/forma_texto.xml" value="0.19375" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Chatunab/app/src/main/res/drawable/ic_chat.xml" value="0.19375" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Chatunab/app/src/main/res/drawable/ic_chat_blanco.xml" value="0.19375" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Chatunab/app/src/main/res/drawable/ic_launcher_background.xml" value="0.19375" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Chatunab/app/src/main/res/drawable/ic_mas.xml" value="0.19375" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Chatunab/app/src/main/res/drawable/splash_background.xml" value="0.19375" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Chatunab/app/src/main/res/layout/activity_detalle.xml" value="0.1734375" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Chatunab/app/src/main/res/layout/activity_editar.xml" value="0.1657848324514991" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Chatunab/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Chatunab/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Chatunab/app/src/main/res/layout/activity_perfil.xml" value="0.5" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Chatunab/app/src/main/res/layout/activity_recuperar_contra.xml" value="0.25" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Chatunab/app/src/main/res/layout/activity_registro.xml" value="0.25" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Chatunab/app/src/main/res/layout/cardview_iniciorv.xml" value="0.1734375" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Chatunab/app/src/main/res/layout/fragment_perfil.xml" value="0.25" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Chatunab/app/src/main/res/layout/fragment_tab1.xml" value="0.1734375" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Chatunab/app/src/main/res/layout/fragment_tab2.xml" value="0.1734375" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Chatunab/app/src/main/res/menu/opciones.xml" value="0.1734375" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Chatunab/app/src/main/res/menu/popup.xml" value="0.1734375" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Chatunab/app/src/main/res/menu/popup_img_perfil.xml" value="0.1734375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

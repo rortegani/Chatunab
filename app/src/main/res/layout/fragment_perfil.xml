@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimaryVariant"
+    tools:context=".vistas.perfil.PerfilFragment">
+
+    <RelativeLayout
+        android:id="@+id/rl_foto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="32dp">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/iv_foto"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/ic_logo"
+            android:background="@color/white"
+            app:shapeAppearanceOverlay="@style/EsquinasRedondeadas"/>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_nombre"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="nombre completo"
+            app:endIconMode="none"
+            app:startIconContentDescription="nombre completo"
+            android:layout_below="@+id/iv_foto">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/tie_nombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:padding="8dp"
+                android:text="nombre completo"
+                android:textColor="@color/black"  />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_email"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:enabled="true"
+            android:hint="email"
+            app:endIconMode="none"
+            app:startIconContentDescription="email"
+            android:layout_below="@+id/til_nombre">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/tie_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:padding="8dp"
+                android:text="email"
+                android:textColor="@color/black"  />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/b_actualizar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Editar"
+            android:layout_below="@+id/til_email"
+            android:layout_marginTop="16dp"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+
+</FrameLayout>

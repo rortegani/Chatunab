@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/perfil"
+        android:title="Perfil"
+        android:icon="@drawable/ic_mas"
+        android:orderInCategory="1"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/saludo"
+        android:title="Saludo"
+        android:icon="@drawable/ic_mas"
+        android:orderInCategory="2"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/notificacion"
+        android:title="Notificacion"
+        android:icon="@drawable/ic_mas"
+        android:orderInCategory="3"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/mapa"
+        android:title="Mapa"
+        android:icon="@drawable/ic_mas"
+        android:orderInCategory="4"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/archivo"
+        android:title="Archivo"
+        android:icon="@drawable/ic_mas"
+        android:orderInCategory="5"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/configuracion"
+        android:title="Configuracion"
+        android:icon="@drawable/ic_mas"
+        android:orderInCategory="6"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/cerrar"
+        android:title="Cerrar"
+        android:icon="@drawable/ic_mas"
+        android:orderInCategory="6"
+        app:showAsAction="never"/>
+
+
+</menu>

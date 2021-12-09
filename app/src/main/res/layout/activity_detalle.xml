@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cl_inicio"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".vistas.Detalle">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/mtv_titulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:transitionName="animacion"
+            android:text="Inicio"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_nombre"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="nombre completo"
+            app:endIconMode="none"
+            app:startIconContentDescription="nombre completo"
+            android:layout_below="@+id/mtv_titulo">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/tie_nombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:enabled="false"
+                android:maxLines="1"
+                android:padding="8dp"
+                android:text="nombre completo"
+                android:textColor="@color/black" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_telefono"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="telefono"
+            app:endIconMode="none"
+            app:startIconContentDescription="telefono"
+            android:layout_below="@+id/til_nombre">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/tie_telefono"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:enabled="false"
+                android:maxLines="1"
+                android:padding="8dp"
+                android:text="telefono"
+                android:textColor="@color/black" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_email"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="email"
+            app:endIconMode="none"
+            app:startIconContentDescription="email"
+            android:layout_below="@+id/til_telefono">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/tie_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:enabled="false"
+                android:maxLines="1"
+                android:padding="8dp"
+                android:text="email"
+                android:textColor="@color/black" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_descripcion"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="descripcion"
+            app:endIconMode="none"
+            app:startIconContentDescription="descripcion"
+            android:layout_below="@+id/til_email">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/tie_descripcion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:enabled="false"
+                android:padding="8dp"
+                android:text="descripcion"
+                android:textColor="@color/black" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/b_editar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Editar"
+            android:layout_marginTop="16dp"
+            android:layout_below="@+id/til_descripcion"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
